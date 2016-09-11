@@ -2,7 +2,7 @@
 
 The goal of the script is to calculate how many people live around 19 French nuclear plants.
 
-In february 2016, the journalist Philippe Roure had calculated this on his blog <a href="http://www.mentrek.org/2016/02/distribution-diode-stable-des-questions.html">Mentrek</a> using QGIS, which enabled me to discover that there was demogafic gridded data on european population.
+In february 2016, the journalist Philippe Roure had calculated this on his blog <a href="http://www.mentrek.org/2016/02/distribution-diode-stable-des-questions.html">Mentrek</a> using QGIS, which enabled me to discover that there existed a demogafic gridded data on european population.
 
 The idea here is to do the same using Python.
 
@@ -10,13 +10,13 @@ The idea here is to do the same using Python.
 At first, I used French demografic gridded data from <a href="http://www.insee.fr/fr/themes/detail.asp?reg_id=0&ref_id=donnees-carroyees">Insee</a>. See the script called popCentrale.py.
 
 #Step 2 : how many Europeans
-I realized while doing it that 4 plants were on the border with Germany, Luxemburg, Belgium or Switzerland. So I finally used European gridded data from <a href="http://ec.europa.eu/eurostat/web/gisco/geodata/reference-data/population-distribution-demography">Eurostat</a>. See the script called popCentrale_euro.py.
+I realized while doing it that 4 plants were on the border with Germany, Luxembourg, Belgium or Switzerland. So I finally used European gridded data from <a href="http://ec.europa.eu/eurostat/web/gisco/geodata/reference-data/population-distribution-demography">Eurostat</a>. See the script called popCentrale_euro.py.
 
 #Journalistic use
 This work gave way to the publication of an <a href="http://www.aef.info/depeche/libre/532957">article</a> on French newswire AEF, as well as an explanatory <a href="https://vimeo.com/158511669">video</a>, with a <a href="https://analutzky.cartodb.com/viz/55afc418-e236-11e5-b0ff-0e5db1731f59/public_map">map</a>, and a <a href="http://datawrapper.dwcdn.net/cW6LD/1/">chart</a>.
 
 #What next
-This work was useful for the events that came next. On 26 april 2016, during the Environmental Conference organized by the French government, French minister Ségolène Royal <a href="https://twitter.com/RoyalSegolene/status/724919836506202113">announced</a> that the area to be taken into account in case of a nuclear serious accident, in order to evacuate and/or put people in safe places, would be shifted from 10 km to 20 km around plants. I was then possible to mesure the impact of such a policy, seeing that the amount of people would be multiplied by four, from 630 000 to 2.4 million.
+This was useful for the events that came next. On 26 april 2016, during the Environmental Conference organized by the French government, French minister Ségolène Royal <a href="https://twitter.com/RoyalSegolene/status/724919836506202113">announced</a> that the area to be taken into account in case of a serious nuclear accident, in order to evacuate and/or put people in safe places, would be shifted from 10 km to 20 km around plants. I was then possible to mesure the impact of such a policy, seeing that the amount of affected people would be multiplied by four, from 630 000 to 2.4 million.
 
 # PopCentrales - Comment compter la population autour des centrales nucléaires françaises !
 
