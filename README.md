@@ -1,4 +1,4 @@
-# PopCentrales - How to calculate population size around French nuclear plants !
+# PopCentrales - How to calculate population size around French nuclear plants 
 
 The goal of the script is to calculate how many people live around 19 French nuclear plants.
 
@@ -18,7 +18,7 @@ This work gave way to the publication of an <a href="http://www.aef.info/depeche
 #What next
 This was useful for the events that came next. On 26 april 2016, during the Environmental Conference organized by the French government, French minister Ségolène Royal <a href="https://twitter.com/RoyalSegolene/status/724919836506202113">announced</a> that the area to be taken into account in case of a serious nuclear accident, in order to evacuate and/or put people in safe places, would be shifted from 10 km to 20 km around plants. I was then possible to mesure the impact of such a policy, seeing that the amount of affected people would be multiplied by four, from 630 000 to 2.4 million.
 
-# PopCentrales - Comment compter la population autour des centrales nucléaires françaises !
+# PopCentrales - Comment compter la population autour des centrales nucléaires françaises 
 
 L'objectif de ce script est de calculer combien de personnes habitent à proximité des 19 centrales nucléaires françaises. 
 
