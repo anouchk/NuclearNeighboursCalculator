@@ -1,10 +1,10 @@
 # NuclearNeighboursCalculator - How to calculate population size around French nuclear plants 
 
-The goal of the script is to calculate how many people live around 19 French nuclear plants.
+The purpose of this script is to calculate how many people live around 19 French nuclear plants.
 
 In february 2016, the journalist Philippe Roure had calculated this on his blog <a href="http://www.mentrek.org/2016/02/distribution-diode-stable-des-questions.html">Mentrek</a> using QGIS, which enabled me to discover that there existed a demogafic gridded data on european population.
 
-The idea here is to do the same using Python.
+Here, the idea is to do the same using Python.
 
 #Step 1 : how many French people
 At first, I used French demografic gridded data from <a href="http://www.insee.fr/fr/themes/detail.asp?reg_id=0&ref_id=donnees-carroyees">Insee</a>. See the script called popCentrale.py.
